@@ -3,7 +3,7 @@
 #include "ludevice.h"
 
 elapsedMillis move_timer;
-ludevice kespb(D4, D3);
+ludevice kespb(4, 3);
 
 float mouseSpeed = 10.0f;
 float degreesToRadians = 2.0f * 3.14f / 360.0f;
