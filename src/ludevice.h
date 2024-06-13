@@ -90,8 +90,8 @@
 #include <RF24.h>
 #include <elapsedMillis.h>
 
-#define DEFAULT_CE_PIN D4
-#define DEFAULT_CS_PIN D3
+#define DEFAULT_CE_PIN 4
+#define DEFAULT_CS_PIN 3
 #define CHANNEL 5
 #define PAYLOAD_SIZE 22
 #define PAIRING_MAC_ADDRESS 0xBB0ADCA575LL
