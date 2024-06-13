@@ -509,6 +509,7 @@ bool ludevice::pair_response(uint8_t *packet, char *name, uint8_t retry)
         {
             if (radio.available())
                 break;
+                return true;
         }
     }
 }
