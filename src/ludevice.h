@@ -158,7 +158,7 @@ private:
 
     // https://github.com/pwr-Solaar/Solaar/blob/master/lib/logitech_receiver/descriptors.py
     // uint16_t device_wpid = 0x2010; // actual K800, p=1.0
-    uint16_t device_wpid = 0x4003; // actual k270
+    uint16_t device_wpid = 0x4024; // actual k270
     // uint16_t device_wpid = 0x406E; // K800 new, p=4.5
     // uint16_t device_wpid = 0x4024; // Anywhere MX
     // uint16_t device_wpid = 0x200F; // MK320, p=1.0
