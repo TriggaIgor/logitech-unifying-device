@@ -150,7 +150,7 @@ private:
     uint32_t firmware_version = 0x35000017; // K270
     // char *device_name = "K800";
     // char *device_name = "K270";
-    char *device_name = "KespB";
+    char *device_name = "Anywhere MX";
 
     // keyboard at 20ms, 0x14
     // mouse keep alive at 8ms interval
@@ -158,7 +158,7 @@ private:
 
     // https://github.com/pwr-Solaar/Solaar/blob/master/lib/logitech_receiver/descriptors.py
     // uint16_t device_wpid = 0x2010; // actual K800, p=1.0
-    uint16_t device_wpid = 0x4024; // actual k270
+    uint16_t device_wpid = 0x1017; // actual k270
     // uint16_t device_wpid = 0x406E; // K800 new, p=4.5
     // uint16_t device_wpid = 0x4024; // Anywhere MX
     // uint16_t device_wpid = 0x200F; // MK320, p=1.0
