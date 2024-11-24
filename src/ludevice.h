@@ -164,7 +164,7 @@ private:
     // uint16_t device_wpid = 0x200F; // MK320, p=1.0
     // uint16_t device_wpid = 0x1337; // custom
     uint8_t protocol = LOGITACKER_DEVICE_PROTOCOL_UNIFYING;         // unifying
-    uint8_t device_type = LOGITACKER_DEVICE_UNIFYING_TYPE_KEYBOARD; // 1
+    uint8_t device_type = LOGITACKER_DEVICE_UNIFYING_TYPE_MOUSE; // 1
     uint8_t caps =
         LOGITACKER_DEVICE_CAPS_LINK_ENCRYPTION |     // 0001, 1
         LOGITACKER_DEVICE_CAPS_BATTERY_STATUS |      // 0010, 2
