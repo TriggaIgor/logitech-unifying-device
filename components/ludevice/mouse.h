@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <elapsedMillis.h>
 #include "ludevice.h"
 #include <esphome.h>
@@ -6,7 +5,7 @@
 double x = 0, y = 0, x0 = 0, y00 = 0, x1 = 0, y11 = 0, r = 100;
 elapsedMillis move_timer;
 int last_timer;
-ludevice kespb(D4, D3);
+ludevice kespb(2, 0);
 
 float mouseSpeed = 10.0f;
 float degreesToRadians = 2.0f * 3.14f / 360.0f;
